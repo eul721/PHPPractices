@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Book-O-Rama Catalog Search</title>
+	</head>
+	<body>
+		<h1>Book-O-Rama Catalog Search</h1>
+		
+		<form action="results.php" method="post">
+			Choose Search Type:<br />
+			<select name="searchtype">
+				<option value="author">Author</option>
+				<option value="title">Title</option>
+				<option value="isbn">ISBN</option>
+			</select>
+			<br/>
+			Enter Search Term:<br/>
+			<input name="searchterm" type="text" size="40"/>
+			<br/>
+			<input name="submit" type="submit" value="Search"/>
+		</form>
+	</body>
+</html>
+
