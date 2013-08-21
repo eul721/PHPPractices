@@ -29,7 +29,7 @@
   <td align=center><input type="text" name="address" size=40 maxlength=40></td>
 </tr>
 <tr>
-  <td colspan=2 align=center><input type=submit value="Submit Order"></td>
+  <td colspan=2 align=center><input type=submit name="submit" value="Submit Order"></td>
 </tr>
 </table>
 </form>  
